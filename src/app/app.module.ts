@@ -9,7 +9,7 @@ import { ClickErrorComponent } from './error-button.component'
 import * as Sentry from "@sentry/browser";
 
 Sentry.init({
-  dsn: "https://41c96d6f84ed42139ecd2bfd0e98e8e2@o450974.ingest.sentry.io/5436225"
+  dsn: "<REPLACE DSN HERE>"
 })
 
 export class SentryErrorHandler implements ErrorHandler {
