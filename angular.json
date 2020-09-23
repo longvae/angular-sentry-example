@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-sentry-example"
+    }
+  },
+  "defaultProject": "angular-sentry-example",
+  "cli": {
+    "analytics": false
+  }
 }
