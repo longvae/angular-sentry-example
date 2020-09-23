@@ -8,9 +8,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Getting started
 
-1. Install Angular-cli: npm install -g @angular/cli
+1. Install Angular-cli: `npm install -g @angular/cli`
 
-2. Setup new Sentry Angular project on Sentry.io
+2. Setup new Sentry Angular project on [Sentry.io](Sentry.io)
 
 3. Copy the DSN key from the Sentry Angular project and paste it in /src/app/app.modules.ts
 
@@ -18,4 +18,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
   dsn: "<REPLACE DSN HERE>"
 })`
 
-4. To start the dev server run ng serve --open
+4. To start the dev server run `ng serve --open`
